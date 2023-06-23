@@ -1,0 +1,106 @@
+img{
+    margin-top: 5%;
+}
+.face{
+    width:250px;
+    height:250px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 2px black;
+    margin:auto;
+    margin-top: 6%;
+    position: relative;
+    border:1px solid black;
+}
+
+.eyes{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width:250px;
+    margin-top:20%;
+}
+#leye{
+    width:50px;
+    height:50px;
+    background-color: white;
+    border-radius: 50%;
+}
+#innerleye{
+    width:50%;
+    height:50%;
+    background-color: black;
+    border-radius: 50%;
+    margin-top:30%;
+    margin-left:27%;
+}
+#reye{
+    width:50px;
+    height:50px;
+    background-color: white;
+    border-radius: 50%;
+}
+#innerreye{
+    width:50%;
+    height:50%;
+    background-color: black;
+    border-radius: 50%;
+    margin-top:30%;
+    margin-left:27%;
+}
+.mouth{
+    width:40%;
+    height: 20%;
+    background-color:red;
+    border-radius: 25%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    margin-top: 55%;
+    margin-left:30%;
+    position:relative;
+    border:1px solid black;
+}
+
+#lnose{
+    width: 31% ;
+    height: 56% ;
+    background-color: black;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 13%;
+    margin-left: 8%;
+}
+#rnose{
+    width: 31% ;
+    height: 56% ;
+    background-color: black;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 13%;
+    margin-left: 64%;
+}
+#lear{
+width: 34%;
+    height: 34%;
+    background-color: pink;
+    border-radius: 100px 100px 0 0;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: -87%;
+    margin-left: 8%;
+    z-index: -1;
+}
+#rear{
+    width: 34%;
+    height: 34%;
+    background-color: pink;
+    border-radius: 100px 100px 0 0;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: -89%;
+    margin-left: 57%;
+    z-index: -1;
+    
+}
